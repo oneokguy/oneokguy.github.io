@@ -1,0 +1,676 @@
+* {
+	margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+	width: 1600px;
+	overflow: auto;
+}
+section.framer1 {
+	width: 100px;
+	float: left;
+	background-color: #1d2531;
+	height: 1260px;
+
+}
+section img.top1 {
+	position: absolute;
+	top: 20px;
+	left: 0;
+
+}
+section img.top2 {
+	position: absolute;
+	top: 100px;
+	left: 0;
+}
+section img.top3 {
+	position: absolute;
+	top: 180px;
+	left: 0;
+}
+section img.top4 {
+	position: absolute;
+	top: 260px;
+	left: 0;
+}
+
+ section img.btpho1 {
+	position: relative;
+	top: 1215px;
+	left: 0;
+	width: 35px;
+}
+section img.btpho2 {
+	position: relative;
+	top: 1215px;
+	
+	width: 35px;
+}
+/*第二栏*/
+section.framer2 {
+	width: 250px;
+	float: left;
+	
+	background-color: #222c3c;
+	height: 1260px;
+}
+div.box1 {
+	padding: 30px 20px;
+	color: 	#A9A9A9;
+	opacity: 0.5;
+}
+img.gear {
+	float: right;
+	
+}
+.framer2 p {
+	color: #A9A9A9;
+	margin-left: 30px;
+	padding: 10px;
+}
+div.box2 {
+	padding: 30px 20px;
+	color: 	#A9A9A9;
+	opacity: 0.5;
+}
+img.inserpho {
+	margin-top: 20px;
+	z-index: 1;
+
+}
+
+div.box3 {
+	padding: 30px 20px;
+	color: 	#A9A9A9;
+	opacity: 0.5;
+}
+div.box4 {
+	padding-left: 37px;
+	color: 	white;
+	font-size: 12px;
+	top: 1200px;
+	position: absolute;
+
+}
+
+p.num1 {
+	
+	width: 30px;
+	border-radius: 30px;
+	background-color: #2197f0;
+	color: white;
+	padding-top: 1px;
+	top: 130px;
+	left: 260px;
+	position: absolute;
+	margin: 0;
+	height: 20px;
+	font-size: 10px;
+}
+p.num2 {
+	width: 30px;
+	background-color: #2197f0;
+	color: white;
+	top: 630px;
+	left: 260px;
+	position: absolute;
+	border-radius: 30px;
+	margin:0;
+	height: 20px;
+	font-size: 10px;
+	padding-top: 1px;
+
+}
+p.num3 {
+	width: 30px;
+	background-color: #db391d;
+	color: white;
+	top: 710px;
+	left: 260px;
+	position: absolute;
+	border-radius: 30px;
+	margin:0;
+	height: 20px;
+	font-size: 10px;
+	padding-top: 1px;
+	padding-left: 12px;
+
+}
+/*右侧第三栏部分*/
+section.framer3 {
+	
+	float: left;
+	left: 350px;
+	
+
+}
+section div.head {
+     overflow: hidden;
+     width: 900px;
+     padding-top: 30px;
+     padding-left: 30px;
+     font-size: 20px;
+     color: #848a94;
+
+}
+img.ph03 {
+	top: 20px;
+	left: 1020px;
+	position: absolute;
+	
+}
+p.jordan {
+	top: 20px;
+	left: 1100px;
+	position: absolute;
+
+}
+p.administrator {
+	top: 40px;
+	left: 1100px;
+	position: absolute;
+	margin-top: 10px;
+
+}
+/*第三栏左侧部分*/
+section.right-box {
+	overflow: hidden;
+	width: auto;
+
+}
+.message-left {
+	width: 350px;
+	height: auto;
+	margin-left: 0;
+	float: left;
+	margin-top: 20px;
+
+}
+input {
+	width: 300px;
+	margin-top: 50px;
+	margin-left: 25px;
+	height: 35px;
+	font-size: 20px;
+	padding-left: 20px;
+	color: #848a94;
+	border-radius: 15px 15px;
+
+
+}
+/*bessie berry*/
+div.bessie {
+	/*height: 130px;*/
+	width: 300px;
+	
+	margin-top: 20px;
+	
+}
+img.bessie {
+	float: left;
+	margin-top: 20px;
+}
+b.bessie {
+	margin: 5px;
+	
+	float: left;
+	margin-right: 100px;
+	color: #7ec1f6;
+	margin-top: 20px;
+
+
+}
+p.m {
+	left: 630px;
+	top: 230px;
+	position: absolute;
+	color: #848a94;
+
+}
+p.twitter {
+	float: left;
+	margin-left: 4px;
+	color: #848a94;
+}
+div.berry {
+	float: left;
+	color: #848a94;
+	margin-right: 50px;
+	font-size: 15px;
+	margin-top: 10px;
+	width: 250px;
+	padding-bottom: 10px;
+}
+p.four {
+	top: 270px;
+	left: 630px;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	background-color: #2a9ef6;
+	padding-left: 5px;
+	color: white;
+}
+/*信息栏Victor Weber*/
+div.victor-weber {
+	/*height: 150px;*/
+	width: 300px;
+	border-bottom: 1px solid #848a94;
+	margin-top: 30px;
+	overflow: hidden;
+	padding-bottom: 10px;
+	border-top: 1px solid #848a94;
+}
+img.victor {
+	float: left;
+	margin-top: 20px;
+}
+b.victor {
+	margin: 5px;
+	
+	float: left;
+	margin-right: 100px;
+	color: #7ec1f6;
+	margin-top: 20px;
+	color: #92949b;
+
+
+}
+p.m1 {
+	left: 630px;
+	top: 380px;
+	position: absolute;
+	color: #848a94;
+
+}
+p.adobe {
+	float: left;
+	margin-left: 4px;
+	color: #848a94;
+}
+div.weber {
+	float: left;
+	color: #848a94;
+	margin-right: 30px;
+	font-size: 15px;
+	margin-top: 10px;
+}
+/*Dustin部分*/
+div.dustin-benson {
+	/*height: 150px;*/
+	width: 300px;
+	
+	margin-top: 30px;
+	overflow: hidden;
+}
+img.dustin {
+	float: left;
+	margin-top: 20px;
+}
+b.dustin {
+	margin: 5px;
+	border-bottom: 1x solid #848a94;
+	float: left;
+	margin-right: 100px;
+	color: #7ec1f6;
+	margin-top: 20px;
+	color: #92949b;
+
+
+}
+p.yesterday {
+	left: 580px;
+	top: 550px;
+	position: absolute;
+	color: #848a94;
+
+}
+p.facebook {
+	float: left;
+	margin-left: 4px;
+	color: #848a94;
+}
+div.dustin {
+	float: left;
+	color: #848a94;
+	margin-right: 30px;
+	font-size: 15px;
+	margin-top: 10px;
+}
+/*jack mason*/
+div.jack-mason {
+	height: 150px;
+	width: 300px;
+	border-bottom: 1px solid #848a94;
+	margin-top: 30px;
+	overflow: hidden;
+}
+img.jack {
+	float: left;
+	margin-top: 20px;
+}
+b.jack {
+	margin: 5px;
+	
+	float: left;
+	margin-right: 100px;
+	color: #7ec1f6;
+	margin-top: 20px;
+	color: #92949b;
+
+
+}
+p.yesterday2 {
+	left: 580px;
+	top: 710px;
+	position: absolute;
+	color: #848a94;
+
+}
+p.yahoo {
+	float: left;
+	margin-left: 4px;
+	color: #848a94;
+}
+div.jack {
+	float: left;
+	color: #848a94;
+	margin-right: 30px;
+	font-size: 15px;
+	margin-top: 10px;
+}
+/*stephen shelton*/
+div.stephen-shelton {
+	margin-top: 30px;
+	width: 300px;
+	border-bottom: 1px solid #848a94;
+	
+	overflow: hidden;
+}
+img.stephen {
+	float: left;
+	margin-top: 20px;
+}
+b.stephen {
+	margin: 5px;
+	
+	float: left;
+	margin-right: 100px;
+	color: #7ec1f6;
+	margin-top: 20px;
+	color: #92949b;
+
+
+}
+p.jun13 {
+	left: 580px;
+	top: 900px;
+	position: absolute;
+	color: #848a94;
+
+}
+p.snapchat {
+	float: left;
+	margin-left: 4px;
+	color: #848a94;
+}
+div.stephen {
+	float: left;
+	color: #848a94;
+	margin-right: 30px;
+	font-size: 15px;
+	margin-top: 10px;
+}
+/*sally willis*/
+div.sally-willis {
+	margin-top: 30px;
+	width: 300px;
+	border-bottom: 1px solid #848a94;
+	
+	overflow: hidden;
+}
+img.sally {
+	float: left;
+	margin-top: 20px;
+}
+b.sally {
+	margin: 5px;
+	
+	float: left;
+	margin-right: 100px;
+	color: #7ec1f6;
+	margin-top: 20px;
+	color: #92949b;
+
+
+}
+p.jun12 {
+	left: 580px;
+	top: 1050px;
+	position: absolute;
+	color: #848a94;
+
+}
+p.twitter {
+	float: left;
+	margin-left: 4px;
+	color: #848a94;
+}
+div.sally {
+	float: left;
+	color: #848a94;
+	margin-right: 30px;
+	font-size: 15px;
+	margin-top: 10px;
+}
+/*robert patton*/
+div.robert-patton {
+	margin-top: 30px;
+	width: 300px;
+	
+	
+	overflow: hidden;
+	margin-bottom: 0px;
+}
+img.robert {
+	float: left;
+	margin-top: 20px;
+}
+b.robert {
+	margin: 5px;
+	
+	float: left;
+	margin-right: 100px;
+	color: #7ec1f6;
+	margin-top: 20px;
+	color: #92949b;
+
+
+}
+p.jun9 {
+	left: 580px;
+	top: 1200px;
+	position: absolute;
+	color: #848a94;
+
+}
+p.team {
+	float: left;
+	margin-left: 4px;
+	color: #848a94;
+}
+div.robert {
+	overflow: hidden;
+	color: #848a94;
+	margin-right: 30px;
+	font-size: 15px;
+	margin-top: 20px;
+}
+p.robrt {
+	float: left;
+}
+
+
+
+/*第三栏右侧部分*/
+.message-right {
+	width: auto;
+	border-left: 1px solid #848a94;
+	margin-right: 0;
+	float: left;
+	margin-top: 20px;
+
+}
+div.right-head {
+	color: #000000;
+	/*overflow: hidden;*/
+	font-size: 20px;
+	width: 550px;
+	font-weight: 20px;
+	padding-left: 20px;
+	padding-top: 20px;
+
+
+	
+}
+b.berry {
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+
+}
+
+
+img.ph13,img.ph11{
+	float: right;
+}
+/*Bessie Berry 8:30 */
+div.bessie-berry {
+	margin-top: 10px;
+	width: 300px;
+	/*border: 1px solid black;*/
+	padding-top: 20px;
+	
+	overflow: hidden;
+	width: 550px;
+	margin-left: 50px;
+}
+img.berry {
+	float: left;
+	margin-top: 20px;
+}
+b.berry {
+	margin: 5px;
+	
+	float: left;
+	margin-right: 100px;
+	color: #7ec1f6;
+	margin-top: 20px;
+	color: #92949b;
+
+
+}
+span {
+	color:#b5beca;
+}
+
+div.berry1 {
+	float: left;
+	
+	color: #848a94;
+	margin-right: 30px;
+	font-size: 15px;
+	margin-top: 10px;
+	width: 550px;
+	padding-left: 47px;
+	margin-top: 0;
+}
+/*jordan jackson*/
+div.jordan-jackson {
+	
+	width: 300px;
+	/*border: 1px solid black;*/
+	
+	overflow: hidden;
+	width: 550px;
+	margin-left: 50px;
+}
+img.jordan1 {
+	float: left;
+	margin-top: 20px;
+}
+b.jordan1 {
+	margin: 5px;
+	
+	float: left;
+	margin-right: 100px;
+	color: #7ec1f6;
+	margin-top: 20px;
+	color: #92949b;
+
+
+}
+span {
+	color:#b5beca;
+}
+
+div.jordan1 {
+	float: left;
+	color: #848a94;
+	margin-right: 30px;
+	font-size: 15px;
+	margin-top: 10px;
+	width: 550px;
+	padding-left: 47px;
+	margin-top: 0;
+}
+/*Tuesday*/
+div.tuesday {
+	height: 20px;
+	width: 700px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 30px;
+}
+.line {
+	height: 2px;
+	background-color: #848a94;
+	flex-grow: 1;
+}
+p.tuesday {
+	text-align: center;
+	color: #848a94;
+	
+	margin: 0 5px;
+
+}
+div.new {
+	height: 20px;
+	width: 700px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 30px;
+}
+span.line1 {
+	height: 2px;
+	background-color: #7ec1f6;
+	flex-grow: 1;
+}
+p.new {
+	text-align: center;
+	color: #7ec1f6;
+	
+
+}
+img.ph72 {
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+
