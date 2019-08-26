@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Resume</title>
+	<style type="text/css">
+		
+
+	  *{
+	  	margin:0;
+	  	padding:0;
+	  	font-family: arial;
+	  	list-style: none;
+	  }
+	  header {
+
+	  	height: 200px;
+	  	background: #41a97b;
+	  	text-align: center;
+
+	  }
+	  header > p {
+        
+         font-size: 20px;
+         color: white;
+         font-weight: bold;
+         margin-bottom: 0;
+         
+         
+	  }
+	 img {
+	 	width: 100px;
+	 	height:120px;
+	 	margin-top:10px;
+	 	border-bottom: 0;
+	 	padding-bottom: 0;
+	 }
+	  .wrapper {
+	  	height: 200px;
+	  	
+	  	overflow: hidden;
+	  }
+	  .boxOne{
+	  	float: left;
+	  	margin-left: 100px;
+	  	margin-right: 100px;
+	  }
+	  .boxOne p {
+	  	color: #41a97b;
+	  	font-size: 20px;
+	  	font-weight: bold;
+	  	margin-top: 10px;
+	  	margin-bottom: 10px;
+	  }
+	  .boxOne span {
+	  	width: 300px;
+	  	height: 10px;
+	  	background: #41a97b;
+	  	display: inline-block;
+	  	margin-left: 10px;
+	  	border-radius: 5px;
+	  	
+	  }
+	  ul {
+	  	color: #808080;
+
+
+	  }
+	  ul a {
+	  	text-decoration: none;
+	  	color:#808080;
+	  }
+	  ul a:hover {
+	  	color: white;
+	  	background-color: orange;
+	  	border-radius: 10px;
+	  	text-align: center;
+	  	padding:0 5px;
+
+	  }
+	  .boxTwo{
+	  	float: right;
+	  	margin-right: 200px;	  	
+	  }
+	  .boxTwo p {
+	  	color: #41a97b;
+	  	font-size: 20px;
+	  	font-weight: bold;
+	  	margin-top: 10px;
+	  	margin-bottom: 10px;
+
+	  }
+	    .boxTwo span {
+	  	width: 300px;
+	  	height: 10px;
+	  	background: #41a97b;
+	  	display: inline-block;
+	  	margin-left: 10px;
+	  	border-radius: 5px;
+	  	
+	  }
+	  /*工作经验*/
+       .title > P{
+       	color: #41a97b;
+	  	font-size: 20px;
+	  	font-weight: bold;
+	  	
+       }
+       .title span {
+
+       	width: 950px;
+	  	height: 10px;
+	  	background: #41a97b;
+	  	display: inline-block;
+	  	margin-left: 10px;
+	  	border-radius: 5px;
+	  	
+
+       }
+        
+        .title{
+        	margin: 20px 100px;
+        	
+        	height:50px;       
+        }
+        .company {
+        	overflow: hidden;
+        	margin-left: 100px;
+
+        }
+     .company p{
+     	float: left;
+     	color: #808080;
+     	
+
+     }
+      b {
+     	width: 10px;
+     	height: 10px;
+     	border:2px solid #41a97b;
+     	border-radius: 50%;
+     	display: inline-block;
+     	margin-right: 20px;
+
+     }
+     .company span{
+     	float: left;
+     	color: #41a97b;
+     	font-size: 18px;
+     	font-weight: bold;
+     	margin-left: 100px;
+
+
+     }
+    .company::after {
+     	content: '';
+     	display: block;
+     	clear: both;
+     }
+     .some {
+     	margin-left: 390px;
+     	border-left: 5px solid #41a97b;
+     	height: 100px;
+     	color: #808080;
+     	
+     }
+
+    .one{
+     	float: left;
+     	font-style: normal;
+     	margin-left: 22px;
+     }
+     .two{
+     	float: right;
+     	margin-right: 200px;
+
+     }
+   
+    .next {
+    	margin-top: 10px;
+    	overflow: hidden;
+
+    }
+    .some p {
+    	margin-top: 50px;
+    	margin-left: 20px;
+    	
+    }
+    /*教育经历*/
+    .edu-two {
+    	overflow: hidden;
+        	margin-left: 100px;
+        	margin-top: 30px;
+        	color: #808080;
+    }
+    .edu-two p{
+    	float: left;
+    }
+
+    .edu-two  span{
+
+      float: left;
+     	color: #41a97b;
+     	font-size: 18px;
+     	font-weight: bold;
+     	margin-left: 100px;
+    }
+    .edu-two > .degreeTwo {
+    	margin-left: 135px;
+    }
+    /*自我介绍*/
+    .self-text {
+    	border:5px solid #41a97b;
+    	border-radius: 15px;
+    	height: 100px;
+    	margin-left: 180px;
+    	margin-right: 180px;
+    	color: 	#2F4F4F;
+    	text-indent: 2em;
+    }
+    footer {
+    	height: 50px;
+    	line-height: 50px;
+    	font-size: 20px;
+    	text-align: center;
+    	background: #41a97b;
+    	margin-top: 10px;
+    	color: #F0FFFF;
+    	font-weight: bold;
+    }
+	</style>
+</head>
+<body>
+   <header><img src="https://mypics.zhaopin.cn//avatar/2018/1/19/ce2e873a-2b33-421a-a0f5-926a7a7d8110.jpg"><p>应聘前端实习生</p></header>
+   <div class="wrapper">
+   <div class="boxOne"><p>基本信息<span></span></p>
+      <ul>
+      	<li>姓名：邓喻宣</li>
+      	<li>性别：男</li>
+      	<li>年龄：22岁</li>
+      	<li>当前工作城市：广州</li>
+      	<li>电话：15119469884</li>
+      	<li>邮箱：<a href="mailto:1406401393@qq.com">1406401393@qq.com</a></li>
+      </ul>
+   </div>
+
+   <div class="boxTwo">
+   	<P>求职意向<span></span></P>
+   	<ul>
+   		<li>求职状态：可随时到岗</li>
+   		<li>期望地点：广州</li>
+   		<li>期望行业：互联网</li>
+   		<li>期望职业：Web前端</li>
+   		<li>期望薪资：3.5K起</li>
+   		<li>工作性质：实习</li>
+   	</ul>
+   </div>
+</div>
+<div class="work">
+	<div class="title">
+	<P>工作经验<span></span></P>
+</div>
+<div class="company">
+	<P >2018年06月 - 2018年08月</P>
+	<span><b></b>广州东星电子科技有限公司</span>
+</div>
+	<div class="some">
+		<div class="next">
+		<em class="one">电子工程师助理</em>
+		<em class="two">2001-4000元/月</em>
+	</div>
+		<p>负责电路原理图绘制，电路板焊接、测试等</p>
+	</div>
+</div>
+ <div class="education">
+ 	<div class="title"><p>教育经历<span></span></p></div>
+ 	<div>
+ <div class="company">
+	<P >2015年09月 - 2018年06月</P>
+	<span ><b></b>广东工程职业技术学院</span>
+	<span >电子信息工程 大专</span>
+</div>
+ <div class="edu-two">
+	<P >2018年09月 - 2020年06月</P>
+	<span class="school"><b></b>广东技术师范大学</span>
+	<span class="degreeTwo">电子信息工程 本科</span>
+</div>
+ <div class="self">
+ 	<div class="title"><p>自我介绍<span></span></p></div>
+ </div>
+ <div class="self-text">
+ 	本人是一名大四学生，目前通过自学基本掌握了HTML/CSS/JavaScript/Bootstrap等相关基础知识，模仿编写过一些静态网页，由于不是科班出身，对相关计算机基础知识以及更深入的技术应用尚在学习，但本人具备自学基本能力，且希望可以尽早接触并学习企业前端体系知识以及一些企业级应用技术，得以为企业创造价值的同时，发展自身专业前端技术才能。
+ </div>
+<footer>
+	感谢您观看！
+</footer>
+ 
+ 
+ 
+
+
+
+	
+</body>
+</html>
